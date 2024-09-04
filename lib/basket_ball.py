@@ -182,3 +182,6 @@ def game_dict():
             ]
         }
     }
+
+
+def get_all_players():
