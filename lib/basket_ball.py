@@ -185,3 +185,25 @@ def game_dict():
 
 
 def get_all_players():
+  all_players = {}
+  for team in ['home', 'away']:
+    for player in game_dict()[team]['players']:
+      all_players.update(
+        {player['name']: {
+          "name": player["name"],
+          "number": player["number"],
+          "position": player["position"],
+          "points_per_game": player["points_per_game"],
+          "rebounds_per_game": player["rebounds_per_game"],
+          "assists_per_game": player["assists_per_game"],
+          "steals_per_game": player["steals_per_game"],
+          "blocks_per_game": player["blocks_per_game"],
+          "career_points": player["career_points"],
+          "age": player["age"],
+          "height_inches": player["height_inches"],
+          "shoe_brand": player["shoe_brand"]
+          }
+        }
+      )
+  return all_players
+
