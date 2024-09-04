@@ -213,3 +213,4 @@ def num_points_per_game(player_name):
 def player_age(player_name):
   return get_all_players()[player_name]["age"]
 
+def team_colors(team_name):
