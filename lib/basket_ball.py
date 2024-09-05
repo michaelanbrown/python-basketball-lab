@@ -219,4 +219,5 @@ def team_colors(team_name):
       return game_dict()[team]["colors"]
     
 def team_names():
+  team_names = []
   
