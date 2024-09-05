@@ -240,4 +240,6 @@ def average_rebounds_by_shoe_brand():
   shoe_dict = {}
   players = get_all_players()
   for player in players:
+    brand = players[player]["shoe_brand"]
+    rebounds = players[player]["rebounds_per_game"]
     
