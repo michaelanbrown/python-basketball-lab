@@ -244,4 +244,6 @@ def average_rebounds_by_shoe_brand():
     rebounds = players[player]["rebounds_per_game"]
     if (brand in shoe_dict):
       shoe_dict[brand].append(rebounds)
-    
+    else:
+      shoe_dict[brand] = [rebounds]
+  
