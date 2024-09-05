@@ -215,4 +215,5 @@ def player_age(player_name):
 
 def team_colors(team_name):
   for team in game_dict():
-    
+    if game_dict()[team]["team_name"] == team_name:
+      
