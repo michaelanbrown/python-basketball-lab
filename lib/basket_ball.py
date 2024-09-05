@@ -223,3 +223,6 @@ def team_names():
   for team in game_dict():
     team_names.append(game_dict()[team]["team_name"])
   return team_names
+
+def player_numbers(team_name):
+  
