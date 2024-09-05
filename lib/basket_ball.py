@@ -230,4 +230,5 @@ def player_numbers(team_name):
     if game_dict()[team]["team_name"] == team_name:
       team_players = game_dict()[team]["players"]
       for player in team_players:
-        
+        player_numbers.append(player["number"])
+ 
