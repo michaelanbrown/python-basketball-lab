@@ -214,3 +214,5 @@ def player_age(player_name):
   return get_all_players()[player_name]["age"]
 
 def team_colors(team_name):
+  for team in game_dict():
+    
