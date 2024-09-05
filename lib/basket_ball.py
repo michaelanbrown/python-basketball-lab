@@ -232,3 +232,6 @@ def player_numbers(team_name):
       for player in team_players:
         player_numbers.append(player["number"])
   return player_numbers
+
+def player_stats(player_name):
+    
