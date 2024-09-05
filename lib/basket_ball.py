@@ -226,4 +226,5 @@ def team_names():
 
 def player_numbers(team_name):
   player_numbers = []
-  
+  for team in game_dict():
+    
