@@ -225,4 +225,5 @@ def team_names():
   return team_names
 
 def player_numbers(team_name):
+  player_numbers = []
   
