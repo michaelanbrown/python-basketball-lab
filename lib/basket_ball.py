@@ -234,4 +234,4 @@ def player_numbers(team_name):
   return player_numbers
 
 def player_stats(player_name):
-    
+    return(get_all_players()[player_name])
