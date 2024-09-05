@@ -248,4 +248,4 @@ def average_rebounds_by_shoe_brand():
       shoe_dict[brand] = [rebounds]
   for brand in shoe_dict:
     avg = sum(shoe_dict[brand]) / len(shoe_dict[brand])
-    
+    print(f'{brand}: ', "{0:.2f}".format(avg))
