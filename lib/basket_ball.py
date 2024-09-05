@@ -221,4 +221,5 @@ def team_colors(team_name):
 def team_names():
   team_names = []
   for team in game_dict():
-    
+    team_names.append(game_dict()[team]["team_name"])
+  
